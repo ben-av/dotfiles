@@ -128,6 +128,12 @@
 	## Shortened Existing Commands
 	p = pull
 	s = status --short --branch
+	st = status
+        ci = commit
+        co = checkout
+        br = branch
+        df = diff
+        lg = log -p
 [instaweb]
 	# Use the Ruby WEBRick library when creating a `git instaweb`
 	# HTTP server.
